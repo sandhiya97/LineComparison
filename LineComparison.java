@@ -12,8 +12,11 @@ public class LineComparison {
                   {
 			System.out.print("Lenght is Equal");
 		}
+		else if(line1>line2) {
+			System.out.print("First line is Greater");
+		}
 		else {
-			System.out.print("Lenght is Not Equal");
+			System.out.print("Second line is Greater");
 		}
 
 	}
